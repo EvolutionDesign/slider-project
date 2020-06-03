@@ -1,0 +1,45 @@
+.heading {
+    &__first {
+        position: absolute;
+        left: -0.5rem;
+        top: 12rem;
+    }
+
+    &__last {
+        position: absolute;
+        left: 31rem;
+        top: 26rem;
+    }
+}
+
+.paragraph__first {
+    width: 40rem;
+    position: absolute;
+    left: 0.8rem;
+    top: 23rem;
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 49px;
+    line-height: 67px; //50
+    letter-spacing: 0.15em;
+    color: $sec-font-color;
+}
+
+.list {
+    position: absolute;
+    left: 0.8rem;
+    top: 41rem;
+
+    &__heading {
+        list-style: none;
+        font-family: Open Sans;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 49px;
+        line-height: 67px;
+        letter-spacing: 0.15em;
+        text-decoration-line: underline;
+        color: $sec-font-color;
+    }
+}

@@ -1,0 +1,127 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-size: 62.5%;
+  max-width: 192rem;
+  height: 100vh;
+  position: relative;
+  overflow: hidden; }
+
+.container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.bg1 {
+  background: linear-gradient(0deg, rgba(11, 102, 85, 0.8), rgba(11, 102, 85, 0.8)), url("/Ultra HD, 4K, Landscape, 89784499.962da800.jpg"); }
+
+.bg2 {
+  background: linear-gradient(0deg, rgba(11, 102, 85, 0.8), rgba(11, 102, 85, 0.8)), url("/Ultra HD, 4K, Landscape, 28291967.c4525bbb.jpg"); }
+
+.bg3 {
+  background: linear-gradient(0deg, rgba(11, 102, 85, 0.8), rgba(11, 102, 85, 0.8)), url("/Ultra HD, 4K, Landscape, 55038525.ea2a98b8.jpg"); }
+
+.bg4 {
+  background: linear-gradient(0deg, rgba(11, 102, 85, 0.8), rgba(11, 102, 85, 0.8)), url("/Ultra HD, 4K, Landscape, 66951424.77e4d65b.jpg"); }
+
+.custom {
+  max-width: 160rem;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.heading__first {
+  position: absolute;
+  left: -0.5rem;
+  top: 12rem; }
+
+.heading__last {
+  position: absolute;
+  left: 31rem;
+  top: 26rem; }
+
+.paragraph__first {
+  width: 40rem;
+  position: absolute;
+  left: 0.8rem;
+  top: 23rem;
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 49px;
+  line-height: 67px;
+  letter-spacing: 0.15em;
+  color: #21BF73; }
+
+.list {
+  position: absolute;
+  left: 0.8rem;
+  top: 41rem; }
+  .list__heading {
+    list-style: none;
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 49px;
+    line-height: 67px;
+    letter-spacing: 0.15em;
+    text-decoration-line: underline;
+    color: #21BF73; }
+
+.nav {
+  position: absolute;
+  left: 57.55rem;
+  top: 2.4rem; }
+  .nav__list {
+    display: flex;
+    flex-direction: row; }
+  .nav__item {
+    margin-left: 3.8rem;
+    list-style: none; }
+  .nav__link:link, .nav__link:visited {
+    text-decoration: none;
+    font-family: Playfair Display SC;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2.7rem;
+    line-height: 6.5rem;
+    letter-spacing: -0.1em;
+    color: #21BF73;
+    transition: ease-in-out 1s; }
+  .nav__link:hover, .nav__link:active {
+    text-shadow: 0px 10px 4px #000000; }
+
+.btn {
+  display: inline-block;
+  position: absolute;
+  left: 62rem;
+  top: 45rem; }
+
+.card {
+  position: absolute;
+  left: 79.25rem;
+  top: 26.25rem;
+  display: flex; }
+  .card__heading {
+    position: absolute;
+    font-family: Playfair Display SC;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 7.5rem;
+    line-height: 5.5rem;
+    color: #FFBD3C;
+    z-index: 10; }
+  .card__svg {
+    position: absolute;
+    margin-top: 11rem;
+    z-index: 10; }
+  .card__image {
+    opacity: 0.8; }
+
+
+/*# sourceMappingURL=/style.78032849.css.map */

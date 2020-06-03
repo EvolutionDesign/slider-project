@@ -1,0 +1,27 @@
+.card {
+    position: absolute;
+    left: 79.25rem;
+    top: 26.25rem;
+    display: flex;
+
+    &__heading {
+        position: absolute;
+        font-family: Playfair Display SC;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 7.5rem;
+        line-height: 5.5rem;
+        color: $font-color;
+        z-index: 10;
+    }
+
+    &__svg {
+        position: absolute;
+        margin-top: 11rem;
+        z-index: 10;
+    }
+
+    &__image {
+        opacity: 0.8;
+    }
+}
